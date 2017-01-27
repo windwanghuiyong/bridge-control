@@ -14,6 +14,7 @@
 		0C69356E1E3A44270044BE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C69356C1E3A44270044BE20 /* Main.storyboard */; };
 		0C6935701E3A44270044BE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C69356F1E3A44270044BE20 /* Assets.xcassets */; };
 		0C6935731E3A44270044BE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6935711E3A44270044BE20 /* LaunchScreen.storyboard */; };
+		0C69357F1E3AD3410044BE20 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C69357E1E3AD3410044BE20 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		0C69356F1E3A44270044BE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C6935721E3A44270044BE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C6935741E3A44270044BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C69357E1E3AD3410044BE20 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0C6935801E3AE6960044BE20 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +70,13 @@
 				0C6935671E3A44270044BE20 /* FirstViewController.m */,
 				0C6935691E3A44270044BE20 /* SecondViewController.h */,
 				0C69356A1E3A44270044BE20 /* SecondViewController.m */,
+				0C6935801E3AE6960044BE20 /* Constants.h */,
 				0C69356C1E3A44270044BE20 /* Main.storyboard */,
 				0C69356F1E3A44270044BE20 /* Assets.xcassets */,
 				0C6935711E3A44270044BE20 /* LaunchScreen.storyboard */,
 				0C6935741E3A44270044BE20 /* Info.plist */,
 				0C6935601E3A44270044BE20 /* Supporting Files */,
+				0C69357E1E3AD3410044BE20 /* Settings.bundle */,
 			);
 			path = BridgeControl;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C69357F1E3AD3410044BE20 /* Settings.bundle in Resources */,
 				0C6935731E3A44270044BE20 /* LaunchScreen.storyboard in Resources */,
 				0C6935701E3A44270044BE20 /* Assets.xcassets in Resources */,
 				0C69356E1E3A44270044BE20 /* Main.storyboard in Resources */,
@@ -318,6 +324,7 @@
 				0C6935791E3A44270044BE20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

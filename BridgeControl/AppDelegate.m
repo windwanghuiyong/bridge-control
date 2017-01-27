@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Constants.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 注册默认值, 防止首次启动时, 显示空值
+    NSDictionary *defaults = @{
+                               kOfficerKey: @"Name",
+                               kAuthorizationCodeKey: @"Code",
+                               kRankKey: @"Rank",
+                               kWarpDriveKey: @YES, 
+                               kWarpFactorKey: @5,
+                               kFavoriteTeaKey: @"Tea",
+                               kFavoriteCaptainKey: @"Captain",
+                               kFavoriteGadgetKey: @"Gadget", 
+                               kFavoriteAlienKey: @"Vulcan"};
+    [[NSUserDefaults  standardUserDefaults] registerDefaults:defaults];
     return YES;
 }
 

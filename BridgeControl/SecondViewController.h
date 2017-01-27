@@ -10,6 +10,8 @@
 
 @interface SecondViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISwitch *engineSwitch;
+@property (weak, nonatomic) IBOutlet UISlider *warpFactorSlider;
 
 @end
 
